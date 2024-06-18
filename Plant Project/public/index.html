@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Identifier</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="nav-margin">
+        <div class="flex">
+            <img src="./assets/NATURE.png" class="logo-img" loading="lazy" alt="Nature Insight">
+            <p class="logo-heading">Nature Insight</p>
+        </div>
+        <hr class="new1">
+    
+        <hr class="new2">
+    </nav>
+    
+
+    <h1>Plant Identifier</h1>
+    <div class="container">
+        <div class="left-panel">
+            <form id="plantForm">
+                <input type="file" id="plantImageInput" name="image" accept="image/*" capture="camera">
+                <button type="submit">Upload</button>
+            </form>
+            <div id="plantImagePreview"></div>
+        </div>
+        <div class="right-panel">
+            <div id="loading" class="loading-spinner" style="display: none;"></div>
+            <div id="plantInfo"></div>
+        </div>
+    </div>
+
+    <div class="copyright">
+        <p>© 2021 Insider News. All rights reserved.</p>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
