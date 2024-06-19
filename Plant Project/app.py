@@ -3,7 +3,7 @@ import textwrap
 import google.generativeai as genai
 
 # Your Google API key
-GOOGLE_API_KEY = 'AIzaSyAQQ1QChnpmrc8Wtaz-wslDNZOZ-pxpViA'
+GOOGLE_API_KEY = 'your_gemini_api_key'
 
 # Function to format text into Markdown
 def to_markdown(text):
